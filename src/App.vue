@@ -5,7 +5,14 @@
 export default {
   components: {
     home: () => import('./demo/home'),
-    docs: () => import('./demo/docs')
+    docs: () => import('./demo/docs'),
+    hakkimizda: () => import('./demo/hakkimizda'),
+    setting: () => import('./demo/setting'),
+    scenes: () => import('./demo/scenes'),
+    family: () => import('./demo/family'),
+    rooms: () => import('./demo/rooms'),
+    devices: () => import('./demo/devices'),
+    status: () => import('./demo/status')
   },
   mounted () {
     this.$zircle.config({
