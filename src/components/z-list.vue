@@ -1,10 +1,8 @@
 <template>
-  <section title="z-list">
-    <slot
-      v-for="(item, index) in $zircle.getCurrentPage()"
-      v-bind="item"
-      :index=index>
-    </slot>
+  <section class="z-list">
+    <div v-for="(item, index) in $zircle.getCurrentPage()" :key="item[0] + '-' + index">
+      <slot v-bind="item" :index=index></slot>
+    </div>
     <z-pagination  v-if="$zircle.getNumberOfPages() > 1"
       v-for="(page, index) in $zircle.getNumberOfPages()"
       :key="index + '_page'"

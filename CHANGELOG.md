@@ -2,6 +2,67 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.2.0"></a>
+# [1.2.0](https://github.com/zircleui/zircleUI/compare/v1.1.3...v1.2.0) (2018-12-05)
+
+
+### Features
+
+* 🎸 avoid using suffix for views with router enabled ([8127aa5](https://github.com/zircleui/zircleUI/commit/8127aa5)), closes [#19](https://github.com/zircleui/zircleUI/issues/19)
+
+
+
+<a name="1.1.3"></a>
+## [1.1.3](https://github.com/zircleui/zircleUI/compare/v1.1.2...v1.1.3) (2018-11-13)
+
+
+### Bug Fixes
+
+* 🐛 add Number type in label property ([424ac5e](https://github.com/zircleui/zircleUI/commit/424ac5e))
+
+
+
+<a name="1.1.2"></a>
+## [1.1.2](https://github.com/zircleui/zircleUI/compare/v1.1.1...v1.1.2) (2018-11-08)
+
+
+### Bug Fixes
+
+* 🐛 avoid show title z-list on mouseover ([3f260d6](https://github.com/zircleui/zircleUI/commit/3f260d6))
+
+
+
+<a name="1.1.1"></a>
+## [1.1.1](https://github.com/zircleui/zircleUI/compare/v1.1.0...v1.1.1) (2018-11-03)
+
+
+### Bug Fixes
+
+* 🐛 remove duplicate slot 'image' ([b38ef1d](https://github.com/zircleui/zircleUI/commit/b38ef1d)), closes [#18](https://github.com/zircleui/zircleUI/issues/18)
+
+
+
+<a name="1.1.0"></a>
+# [1.1.0](https://github.com/zircleui/zircleUI/compare/v1.0.2...v1.1.0) (2018-10-17)
+
+
+### Bug Fixes
+
+* 🐛 Add v-bind key in z-list ([f289982](https://github.com/zircleui/zircleUI/commit/f289982))
+* 🐛 Demo: fix view name reference and use z-list ([35e7a94](https://github.com/zircleui/zircleUI/commit/35e7a94))
+
+
+### Features
+
+* 🎸 Add .toView() action ([ac14b35](https://github.com/zircleui/zircleUI/commit/ac14b35)), closes [#16](https://github.com/zircleUI/zircleUI/issues/16)
+
+
+
+<a name="1.0.2"></a>
+## [1.0.2](https://github.com/zircleui/zircleUI/compare/v1.0.1...v1.0.2) (2018-10-16)
+
+
+
 <a name="1.0.1"></a>
 ## [1.0.1](https://github.com/zircleui/zircleUI/compare/v1.0.0...v1.0.1) (2018-08-17)
 
@@ -20,20 +81,6 @@ All notable changes to this project will be documented in this file. See [standa
 ### Tests
 
 * 💍 Update snapshot z-view ([1854e6a](https://github.com/zircleui/zircleUI/commit/1854e6a))
-
-
-### BREAKING CHANGES
-
-* n
-
-Issues: n
-* n
-
-Issues: n
-* n
-
-Issues: n
-
 
 
 <a name="0.9.1"></a>

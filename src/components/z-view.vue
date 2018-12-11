@@ -20,10 +20,6 @@
           {{label}}
         </div>
       </div>
-      <div v-if="$slots['image'] || imagePath" class="z-content">
-        <img v-if="imagePath" :src="imagePath" width="100%" height="100%" />
-        <slot v-if="!imagePath" name="image"></slot>
-      </div>
       <div class="z-content maincontent" ref="maincontent" :class="[longContent, firefoxScroll]" @scroll.passive="scroll">
         <div ref="ztext">
           <slot></slot>
@@ -56,7 +52,7 @@ export default {
       default: 'xxl'
     },
     label: {
-      type: [String]
+      type: [String, Number]
     },
     labelPos: {
       type: [String],
@@ -133,7 +129,7 @@ export default {
       if (this.fullView === this.$zircle.getCurrentViewName() && this.$zircle.getNavigationMode() === 'forward') {
         var zstyle = 'opacity: 1; transition: opacity 1000ms linear;'
       } else if (this.fullView === this.$zircle.getCurrentViewName() && this.$zircle.getNavigationMode() !== 'forward') {
-        var zstyle = 'opacity: 1;'
+        zstyle = 'opacity: 1;'
       } else {
         zstyle = 'opacity: 0; transition: opacity 500ms linear;'
       }

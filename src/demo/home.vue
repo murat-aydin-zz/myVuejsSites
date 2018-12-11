@@ -15,6 +15,7 @@
         </z-spot>
       <!-- family-->
       <z-spot
+<<<<<<< HEAD
               :angle="-30"
               size="s"
               :distance="120"
@@ -22,6 +23,13 @@
               label-pos="top"
               to-view="family">
         <i class="fas fa-map-marker-alt"></i>
+=======
+        :angle='45'
+        to-view='docs'
+        class='accent'
+        label='Docs'>
+        <i class='fas fa-book'></i>
+>>>>>>> cb9d8ea10ad0f65f40baaccbf81009f26267fbbf
       </z-spot>
       <z-spot slot="extension"
               button
@@ -61,12 +69,21 @@
       </z-spot>
       <!-- settings-->
       <z-spot
+<<<<<<< HEAD
               :angle="150"
               :distance="120"
               size="s"
               label="Ayarlar"
               to-view="setting">
         <i class="fas fa-sliders-h"></i>
+=======
+        button
+        :angle='135'
+        class='accent'
+        label='Github'
+        @click.native="openUrl">
+        <i class='fab fa-github'></i>
+>>>>>>> cb9d8ea10ad0f65f40baaccbf81009f26267fbbf
       </z-spot>
     </div>
   </z-view>
