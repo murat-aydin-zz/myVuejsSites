@@ -1,8 +1,6 @@
 ## Detaylar
 
-https://ibb.co/k0Bw5sr
-
-
+<a href="https://ibb.co/k0Bw5sr"><img src="https://i.ibb.co/ZKXFGpw/Screen-Shot-2018-12-11-at-11-56-04-AM.png" alt="Screen-Shot-2018-12-11-at-11-56-04-AM" border="0"></a>
 
 
 
