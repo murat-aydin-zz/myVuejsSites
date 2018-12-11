@@ -1,3 +1,11 @@
+## Detaylar
+
+https://ibb.co/k0Bw5sr
+
+
+
+
+
 <p align="center">
   <a href="http://zircle.io">
     <img src="https://raw.githubusercontent.com/zircleUI/docs/gh-pages/zircle-ui-blue.png" width="200">
